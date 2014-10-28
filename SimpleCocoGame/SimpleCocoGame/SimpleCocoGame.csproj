@@ -92,6 +92,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enemy.cs" />
     <Compile Include="GameDelegate.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
@@ -107,7 +108,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Res\square.png">
+    <Content Include="Res\enemy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Res\player.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

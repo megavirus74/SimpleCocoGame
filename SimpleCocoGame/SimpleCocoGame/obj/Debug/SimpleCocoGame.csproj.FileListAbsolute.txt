@@ -42,7 +42,6 @@ C:\Users\Иван\Desktop\SimpleCocoGame\SimpleCocoGame\obj\Debug\SimpleCocoGame
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\SimpleCocoGame.exe.config
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\obj\Debug\SimpleCocoGame.exe
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\obj\Debug\SimpleCocoGame.pdb
-C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\Res\square.png
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\Res\fonts\kongtext-24.xnb
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\SimpleCocoGame.exe
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\SimpleCocoGame.pdb
@@ -79,4 +78,6 @@ C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\SharpDX.RawInput.xml
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\SharpDX.XAudio2.xml
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\SharpDX.XInput.xml
+C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\Res\player.png
 C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\obj\Debug\SimpleCocoGame.csprojResolveAssemblyReference.cache
+C:\Users\Иван\Documents\GitHub\SimpleCocoGame\SimpleCocoGame\SimpleCocoGame\bin\Debug\Res\enemy.png

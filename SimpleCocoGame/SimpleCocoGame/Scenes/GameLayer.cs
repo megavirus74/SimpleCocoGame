@@ -6,9 +6,12 @@ using SharpDX;
 
 namespace SimpleCocoGame.Scenes {
     /// двоеточие после названия класса - Класс, от которого наследуемся
-    internal class GameLayer: CCLayer {
+    internal class GameLayer: CCLayer
+    {
         private List<Player> ListOfPlayers = new List<Player>();
+        private List<Enemy> ListOfEnemies = new List<Enemy>();
         private Player _player;
+        private Enemy _enemy;
 
         /// <summary>
         ///     Вызывается после инициализации, при входе на сцену. Схож с методом AddedToScene
@@ -33,7 +36,7 @@ namespace SimpleCocoGame.Scenes {
             AddChild(labelSome);
 
             // Player object here:
-            _player = new Player("square") {
+            _player = new Player("player") {
                 Position = new CCPoint(200, 200),
                 Scale = 4,
                 IsAntialiased = false
@@ -42,14 +45,14 @@ namespace SimpleCocoGame.Scenes {
             ListOfPlayers.Add(_player);
 
             // Player object here:
-            var _player2 = new Player("square")
+            _enemy = new Enemy("enemy")
             {
                 Position = new CCPoint(400, 400),
-                Scale = 3,
+                Scale = 4,
                 IsAntialiased = false
             };
-            AddChild(_player2);
-            ListOfPlayers.Add(_player2);
+            AddChild(_enemy);
+            ListOfEnemies.Add(_enemy);
 
             // Adding listeners
             var keyListener = new CCEventListenerKeyboard {OnKeyPressed = OnKeyPress};
@@ -65,11 +68,11 @@ namespace SimpleCocoGame.Scenes {
         {
             foreach (var Player in ListOfPlayers)
             {
-                foreach (var Player2 in ListOfPlayers)
+                foreach (var Enemy in ListOfEnemies)
                 {
-                    if ((Player.Mask.IntersectsRect(Player2.Mask)) && (Player!=Player2))
+                    if (Player.Mask.IntersectsRect(Enemy.Mask))
                     {
-                        Player.Collision(Player2);
+                        Player.Collision(Enemy);
                     }
                 }
             }
